@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="GameLibrary.Parent">
+    <child Type="GameLibrary.Child1">
+      <intField>15</intField>
+    </child>
+    <children></children>
+  </Asset>
+</XnaContent>

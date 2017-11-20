@@ -1,0 +1,21 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\CWPipeline\bin\Debug\CWPipeline.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin DemoParent.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:DemoParent.xml
+
